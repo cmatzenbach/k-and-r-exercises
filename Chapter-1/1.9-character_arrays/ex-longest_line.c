@@ -6,7 +6,9 @@ int getLine(char s[], int maxline);
 void copyStr(char to[], char from[]); 
 
 int main(void) {
+  // vars for current len and current max
   int len, max;
+  // declare arrays big enough to hold max length
   char line[MAXSIZE];
   char longest[MAXSIZE];
 
